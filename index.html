@@ -4,34 +4,104 @@
   <head>
     <title>Callum-Johnstone-Mako-Blog</title>
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
   </head>  
 
   <style>
 body{
+ 
+ max-height: 100%;
+ max-width: 100%;
+
   background-color: gray;
   text-align: center;
+  font-size: 20px;
+  border-style: groove;
+  border-color: white;
+  border-radius: 10px;
 }
-    .Text-Div {
+
+
+
+div {
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 30px;
+margin-right: 30px;
+
+}
+    .Main-Div {
       border: 10px outset black;
       background-color: white;
+      border-radius: 20vmax;
       text-align: center;
       display: inline-block;
       padding-inline: 50px;
     }
+
+    .Picture-Div {
+      border: 10px outset black;
+      background-color: white;
+      padding: 0%;
+      text-align: center;
+      display: inline-block;
+      
+    }
+
+    img {
+  width: 33vw%;
+  height: 30vw;
+}
+    
+
+    .center {
+  margin-left: auto;
+  margin-right: auto;
+}
    
+    
+
     </style>
 
     <body>
 
     <h1>Welcome to Callum's Home Page</h1> 
 
-    <div class="Text-Div">
+    <div class="Main-Div">
       <h2>What is this page?</h2>
       <p>This page is a home page for my blog posts and other related course
         material from my time at Dev Academy. This Page will be updated as I progress 
         through the course. Follow <a href="blog\Blog-Home-Page.html">This link</a> To my Blog posts.
       </p>
+
     </div>
+    <div class="Main-Div">
+      <h2>Some pictures of me to fill up space</h2>
+    </div>
+
+    <table class="center">
+      <tr>
+        <th><div class="Picture-Div">
+          
+          <h2>Fancy</h2>
+          <img src="Pictures\FancyMe.jpg" alt="Fancy Me" >
+          
+        </div></th>
+        <th><div class="Picture-Div">
+          
+          <h2>Sky Dive</h2>
+          <img src="Pictures\SkydiveMe.jpg" alt="Sky Dive Me" >
+          
+        </div></th>
+        <th><div class="Picture-Div">
+          
+          <h2>Snowboard</h2>
+          <img src="Pictures\SnowboardMe.jpg" alt="Snowboard Me" >
+          
+        </div></th>
+      </tr>
+    
+    </table>
 
     
   </body>
