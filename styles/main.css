@@ -28,6 +28,20 @@ margin-right: 30px;
       text-align: center;
       display: inline-block;
       padding-inline: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+
+    .List-Div {
+      border: 10px outset black;
+      background-color: white;
+      border-radius: 20vmax;
+      text-align: left;
+      display: inline-block;
+      padding-inline: 50px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .Picture-Div {
@@ -52,4 +66,3 @@ margin-right: 30px;
    
     
 
-  
