@@ -65,9 +65,13 @@ line-height: 160%;
       
     }
 
-    img {
-  width: 33vw%;
+    .img3 {
+  width: 25vw;
   height: 30vw;
+}
+.img2 {
+  width: 600px;
+  height: 300px;
 }
     
 
