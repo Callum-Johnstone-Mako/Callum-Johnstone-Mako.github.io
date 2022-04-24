@@ -11,6 +11,10 @@ body{
   border-color: white;
   border-radius: 10px;
  
+ padding-top: 0;
+ padding-left: 5%;
+ padding-right: 5%;
+ padding-bottom: 0%;
 }
 
 h3 {
@@ -50,10 +54,11 @@ span.inline-block-height {
   margin-left: 30%;
   margin-right: 30%;
   padding: 0;
+  border: 10px outset black;
 }
 .footer li {
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   padding: 20px;
 }
 
