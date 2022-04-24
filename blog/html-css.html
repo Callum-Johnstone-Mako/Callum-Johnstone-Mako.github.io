@@ -23,30 +23,64 @@
       </P>
 
     </div>
-   
+   <div>
       <img class="'img2" src="\\wsl.localhost\Ubuntu-20.04\home\callum\devacademy\Callum-Johnstone-Mako.github.io\Pictures\Inline.png" alt="Inline Picture"> 
-    
-      <div class="List-Div">
+    </div>
+
+      <div class="blog-Div">
 
 <p>So lets break down whats going on in these screenshots shall we. The image on the left is the class created in the css file which determines four things here:
   <ol>
     <li>
-      <b>padding</b>: The amount of space between the outside of the box and the text insude.
+      <b>Padding</b>: The amount of space between the outside of the box and the text insude.
     </li>
     <li>
-      <b>border</b>: The traits of the border including what type how thick and the color 
+      <b>Border</b>: The traits of the border including what type how thick and the color 
     </li>
     <li>
-      <b>background color</b>: Determines the background color of the highlighted section in this case its <span class="inline">Yellow<span>
+      <b>Background color</b>: Determines the background color of the highlighted section in this case its <span class="inline">Yellow<span>
     </li>
     <li>
-      <b>display</b>
+      <b>Display</b>: Determines how the highlighted section will be displayed in this case we used inline. 
     </li>
   </ol>
+</p>
+<p>
+  The image on the right is in our html file and is how we use the code in action. The important part here is 
+  the line < span > class="inline">highlighting < /span >
+This will use the class "inline" created in the css file to apply to the text highlighting. The constraints of using inline to highlight 
+text is that we are unable to set the dimensions of the section to be any bigger or smaller based on our needs.
+If we want to determine the <span class="inline-block-width">width</span> and  <span class="inline-block-height">height</span> of 
+the box we can use inline-block as shown below.
 </p>
 
 
       </div>
+
+      <div>
+   
+        <img class="'img2" src="\\wsl.localhost\Ubuntu-20.04\home\callum\devacademy\Callum-Johnstone-Mako.github.io\Pictures\Inline-block.png" alt="Inline Picture"> 
+  
+      </div>
+
+
+  <div class="blog-Div">
+  <p>
+    <p>
+      The code used to make these cyan highlighted sections are almost identical to display inline 
+      with one key difference being that there are now width and height paramaters that can be set.
+      Another use for inline-block is to display lists horizontally reather than vertically as inline block does not create
+      a line braek after use. This trait has been used to display the footer of this webpage. The code used will be displayed and explained below.
+    </p>
+  </p>
+</div>
+<div>
+  <ul class="footer">
+    <li><a href=Blog-Home-Page.html>Blog Home Page</a></li>
+    <li><a href="\\wsl.localhost\Ubuntu-20.04\home\callum\devacademy\Callum-Johnstone-Mako.github.io\index.html">About Us</a></li>
+
+  </ul>
+</div>
 
   </body>
 </html>

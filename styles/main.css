@@ -25,6 +25,39 @@ span.inline {
   background-color: yellow; 
 }
 
+span.inline-block-width {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  border: 2px solid pink;    
+  background-color: cyan; 
+}
+
+span.inline-block-height {
+  display: inline-block;
+  width: 70px;
+  height: 100px;
+  padding: 5px;
+  border: 2px solid pink;    
+  background-color: cyan; 
+}
+
+.footer {
+  background-color: white; 
+  list-style-type: none;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 0;
+}
+.footer li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+
 div {
 margin-top: 30px;
 margin-bottom: 30px;
@@ -52,6 +85,18 @@ line-height: 160%;
       text-align: left;
       display: inline-block;
       padding-inline: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .blog-Div {
+      border: 10px outset black;
+      background-color: white;
+      
+      text-align: left;
+      display: inline-block;
+      padding-left: 50px;
+      padding-right: 50px;
       margin-left: auto;
       margin-right: auto;
     }
